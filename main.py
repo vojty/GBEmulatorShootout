@@ -13,6 +13,7 @@ import json
 
 import testroms.blarg
 import testroms.mooneye
+import testroms.wilbertpol
 import testroms.acid
 import testroms.samesuite
 import testroms.ax6
@@ -52,7 +53,7 @@ emulators = [
     Binjgb(),
     PyBoy(),
 ]
-tests = testroms.acid.all + testroms.blarg.all + testroms.daid.all + testroms.ax6.all + testroms.mooneye.all + testroms.samesuite.all + testroms.hacktix.all + testroms.cpp.all
+tests = testroms.acid.all + testroms.blarg.all + testroms.daid.all + testroms.ax6.all + testroms.mooneye.all + testroms.wilbertpol.all + testroms.samesuite.all + testroms.hacktix.all + testroms.cpp.all
 
 def checkFilter(input, filter_data):
     if filter_data is None:
